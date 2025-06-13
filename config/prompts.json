@@ -6,6 +6,6 @@
     "initial_state": "The initial state of the game is: {initial_game_state}. What is your first move?",
     "move_success": "The current game state is: {game_state_string}. What is your next move?",
     "invalid_move": "You suggested an invalid move. The current game state is: {game_state_string}. Please try again.",
-    "invalid_move_format": "Your response was not in the correct format. Please provide your move as 'A to C'. The current game state is: {game_state_string}."
+    "invalid_move_format": "Your response was not in the correct format. Please provide your move in the format (sans quotations) 'X to Y'. The current game state is: {game_state_string}."
   }
 }
