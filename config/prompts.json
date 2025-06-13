@@ -1,0 +1,11 @@
+{
+  "_comment": "This file contains the prompts that are sent to the Large Language Model (LLM). You can edit these prompts to change how the LLM behaves. The text in {curly_braces} is a placeholder that the application will replace with a real value.",
+  "system_prompt": "You are an expert in solving the Tower of Hanoi puzzle. Your goal is to move all the stones from cairn A to cairn C. You must follow these rules:\n1. Only one stone can be moved at a time.\n2. A larger stone cannot be placed on top of a smaller stone.\n3. You can only move the top-most stone from one cairn to another.\n\nI will provide you with the current state of the cairns. You must respond with your next move in the format 'A to C'. Do not include any other text or explanation in your response. Just provide the move.",
+  "user_prompts": {
+    "_comment": "These prompts are used to communicate with the LLM during the game.",
+    "initial_state": "The initial state of the game is: {initial_game_state}. What is your first move?",
+    "move_success": "The current game state is: {game_state_string}. What is your next move?",
+    "invalid_move": "You suggested an invalid move. The current game state is: {game_state_string}. Please try again.",
+    "invalid_move_format": "Your response was not in the correct format. Please provide your move as 'A to C'. The current game state is: {game_state_string}."
+  }
+}

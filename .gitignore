@@ -1,0 +1,18 @@
+# Environments
+.env
+.venv
+venv/
+ENV/
+
+# Task logs
+task_logs/
+
+# Game logs
+game_logs/
+
+# Project plan
+project_plan.md
+
+# Python
+*.pyc
+__pycache__/
